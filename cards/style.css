@@ -1,0 +1,20 @@
+body {
+    background-color: green;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(3deg);
+    transition: transform 0.5s;
+  }
+  
+  .rotate {
+    transform: translate(-50%, -50%) rotate(5deg);
+  }
+
+  .drawButton {
+    position: absolute;
+    left: 47.6%;
+  }
